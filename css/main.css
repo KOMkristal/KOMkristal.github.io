@@ -17,7 +17,8 @@ body {
     text-align: left;
    /* background-image: url("../images/pole2.jpg");*/
    /* background-repeat: repeat;*/
-    background-color: rgba(208, 255, 169, 0.637);
+    /*background-color: rgba(208, 255, 169, 0.637);*/
+    background: linear-gradient(to right, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em);
 }
 
 h1, h2, h3, h4, h5, h6 {

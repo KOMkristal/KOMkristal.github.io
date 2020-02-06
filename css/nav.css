@@ -25,6 +25,8 @@
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  width: 15%;
+
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -259,7 +261,7 @@ flex-wrap: nowrap;
 }
 
 /* Tablet menu */
-@media all and (max-width: 900px) {
+@media all and (max-width: 1199px) {
   .navbar label {
       display: block;
       order: 1;

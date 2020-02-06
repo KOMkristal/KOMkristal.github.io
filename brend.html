@@ -22,7 +22,8 @@
     <link href="css/footer.css" rel="stylesheet">
     <link href="css/jumbotron.css" rel="stylesheet">
     <link href="css/great.css" rel="stylesheet">
-    
+    <link href="css/effects.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
 
     <title>Бренди</title>
 </head>
@@ -30,13 +31,14 @@
     <!-- Navigation -->
     
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg effect-brackets">
         <div class="container">
             <a class="navbar-brand" href="#"><i class="fas fa-inbox"></i> ПП ОЛЕКСАНДРІЯ ПРЕМІУМ</a>
             <input type="checkbox" id="menu-toggle" />
             <label class="label" for="menu-toggle">
                 <i class="fas fa-bars" aria-hidden="true"></i>
             </label>
+            <p><a name="nachalo"></a></p> 
             <div class="navbar-expand" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item">
@@ -49,7 +51,7 @@
                         <a class="nav-link" href="virobnik.html">Виробництво</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="distr.html">Дистриб'юторам</a>
+                        <a class="nav-link" href="distr.html">Співпраця</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contakt.html">Контакти</a>
@@ -84,7 +86,7 @@
 
             <!-- col-9 -->
             <main role="main" class="col-lg-9 main">
-                  <!-- carousel -->
+
                 <div class="row">
                     <div class="container">
                     <section class="banner">
@@ -102,24 +104,76 @@
                       
                   </section>
                 </div>
+                 <!-- carousel -->
+                 <div class="carousel my-carousel carousel--translate">
+                    <input class="carousel__activator" type="radio" name="carousel" id="F" checked="checked" />
+                    <input class="carousel__activator" type="radio" name="carousel" id="G" />
+                    <input class="carousel__activator" type="radio" name="carousel" id="H" />
+                    <input class="carousel__activator" type="radio" name="carousel" id="I" />
+                    <input class="carousel__activator" type="radio" name="carousel" id="J" />
+                    <div class="carousel__controls">
+                        <label class="carousel__control carousel__control--backward" for="J"></label>
+                        <label class="carousel__control carousel__control--forward" for="G"></label>
+                    </div>
+                    <div class="carousel__controls">
+                        <label class="carousel__control carousel__control--backward" for="F"></label>
+                        <label class="carousel__control carousel__control--forward" for="H"></label>
+                    </div>
+                    <div class="carousel__controls">
+                        <label class="carousel__control carousel__control--backward" for="G"></label>
+                        <label class="carousel__control carousel__control--forward" for="I"></label>
+                    </div>
+                    <div class="carousel__controls">
+                        <label class="carousel__control carousel__control--backward" for="H"></label>
+                        <label class="carousel__control carousel__control--forward" for="J"></label>
+                    </div>
+                    <div class="carousel__controls">
+                        <label class="carousel__control carousel__control--backward" for="I"></label>
+                        <label class="carousel__control carousel__control--forward" for="F"></label>
+                    </div>
+                    <div class="carousel__track">
+                        <li class="carousel__slide">
+                            <h2>Пшенична</h2>
+                        </li>
+                        <li class="carousel__slide">
+                            <h2>Посольська</h2>
+                        </li>
+                        <li class="carousel__slide">
+                            <h2>Столична</h2>
+                        </li>
+                        <li class="carousel__slide">
+                            <h2>0,5л</h2>
+                        </li>
+                        <li class="carousel__slide">
+                            <h2>0,25л</h2>
+                        </li>
+                    </div>
+                    <div class="carousel__indicators">
+                        <label class="carousel__indicator" for="F"></label>
+                        <label class="carousel__indicator" for="G"></label>
+                        <label class="carousel__indicator" for="H"></label>
+                        <label class="carousel__indicator" for="I"></label>
+                        <label class="carousel__indicator" for="J"></label>
+                    </div>
+                </div>
                 <!-- row -->
                 <div class="row my-2">
                     <!-- col-4 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="./images/IMG_5896.JPG" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a href="#">ТМ Житня Сльоза</a>
                               </h4>
-                              <h5>$24.99</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                              <h5>₴64,56 за 0,5л.</h5>
+                              <p class="card-text">Ємність 0,1; 0,25; 0,5; 0,7;</p>
                             </div>
                             <div class="card-footer">
                                 <div class="align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-info">View Detail</button>
-                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                        <button type="button" class="btn btn-info">Опис</button>
+                                        <button type="button" class="btn btn-primary">В кошик</button>
                                     </div>
                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                                 </div>
@@ -130,19 +184,19 @@
                     <!-- col-4 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="./images/IMG_9660.JPG" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a href="#">ТМ Кременчуцька</a>
                               </h4>
-                              <h5>$24.99</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                              <h5>₴64,26</h5>
+                              <p class="card-text">Ємність 0,5 літра.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn  btn-info">View Detail</button>
-                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                        <button type="button" class="btn  btn-info">Опис</button>
+                                        <button type="button" class="btn btn-primary">В кошик</button>
                                     </div>
                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                                 </div>
@@ -152,19 +206,19 @@
                     <!-- col-4 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="./images/IMG_5921.JPG" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a href="#">ТМ ОЛЕКСАНДРІЯ</a>
                               </h4>
-                              <h5>$24.99</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                              <h5>₴64,20</h5>
+                              <p class="card-text">Ємність 0,1; 0,25; 0,5; 0,75; </p>
                             </div>
                             <div class="card-footer">
                                 <div class="align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn  btn-info">View Detail</button>
-                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                        <button type="button" class="btn  btn-info">Опис</button>
+                                        <button type="button" class="btn btn-primary">В кошик</button>
                                     </div>
                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                                 </div>
@@ -174,19 +228,19 @@
                     <!-- col-4 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="./images/111.jpg" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a href="#">ТМ Jem Beetlee</a>
                               </h4>
-                              <h5>$24.99</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                              <h5>₴64,26</h5>
+                              <p class="card-text">Ємність 0,5 літра.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn  btn-info">View Detail</button>
-                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                        <button type="button" class="btn  btn-info">Опис</button>
+                                        <button type="button" class="btn btn-primary">В кошик</button>
                                     </div>
                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                                 </div>
@@ -196,19 +250,19 @@
                     <!-- col-4 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="./images/111.jpg" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a href="#">ТМ №8</a>
                               </h4>
-                              <h5>$24.99</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                              <h5>₴64,26</h5>
+                              <p class="card-text">Ємність 0,5 літра;</p>
                             </div>
                             <div class="card-footer">
                                 <div class="align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn  btn-info">View Detail</button>
-                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                        <button type="button" class="btn  btn-info">Опис</button>
+                                        <button type="button" class="btn btn-primary">В кошик</button>
                                     </div>
                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                                 </div>
@@ -218,19 +272,19 @@
                     <!-- col-4 -->
                     <div class="col-lg-4 col-md-6 mb-4">
                         <div class="card h-100">
-                            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+                            <a href="#"><img class="card-img-top" src="./images/IMG_9671.JPG" alt=""></a>
                             <div class="card-body">
                               <h4 class="card-title">
-                                <a href="#">Item One</a>
+                                <a href="#">ТМ Смак сезону</a>
                               </h4>
-                              <h5>$24.99</h5>
-                              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur!</p>
+                              <h5>₴32,16</h5>
+                              <p class="card-text">Ємність 0,5 літра.</p>
                             </div>
                             <div class="card-footer">
                                 <div class="align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn  btn-info">View Detail</button>
-                                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                                        <button type="button" class="btn  btn-info">Опис</button>
+                                        <button type="button" class="btn btn-primary">В кошик</button>
                                     </div>
                                     <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
                                 </div>
@@ -252,9 +306,9 @@
                     <div class="row">
                         <div class="col col-12">
                             <div class="great-started-text text-center">
-                                    <h4 class="">We Are Ready to Help You</h4>
-                                    <h2 class="">Get the Best Solution for Your Business</h2>
-                                    <a href="#" class="btn btn-common">Get Started</a>
+                                <h4 class="">Крокуемо в майбутне разом</h4>
+                                <h2 class="">Найкращі рішення для Вашого ассортименту</h2>
+                                <a href="#nachalo" class="btn btn-common">На початок</a>
                             </div>
                         </div>
                     </div>
@@ -266,7 +320,8 @@
             <!-- container -->
             <div class="container">
                 <div class="site-info">
-                    2020 &copy; Peculiar Shopaholic by <a rel="nofollow" href="#">Janus</a>
+                    2020 &copy;  <a rel="nofollow" href="https://youcontrol.com.ua/ru/catalog/company_details/42329970/">PRIVATE ENTERPRISE OLEKSANDRIYA PREMIUM</a> <br>
+                    <a href=""> Site by KOMkristal</a> 
                 </div>
                 <div class="bottom-social-icons social-icon float-right">
                     <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
