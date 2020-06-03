@@ -2,8 +2,15 @@
 @charset "UTF-8";
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
 
+/* @import "https://fonts.googleapis.com/css?family=Anton&display=swap" ; */
+/* @import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap'); */
+/* @import "href=https://fonts.googleapis.com/css?family=Lobster&display=swap" ; */
+
 html {
-    font-family: sans-serif;
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family:sans-serif;
+     /* sans-serif; */
     line-height: 1.15;
 }
   
@@ -15,10 +22,11 @@ body {
     line-height: 1.5;
     color: #111;
     text-align: left;
-   /* background-image: url("../images/pole2.jpg");*/
-   /* background-repeat: repeat;*/
-    /*background-color: rgba(208, 255, 169, 0.637);*/
-    background: linear-gradient(to right, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em);
+    background-image: url("../images/fon1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: rgba(218, 218, 218, 0.753);
+   /* background: linear-gradient(to right, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em);*/
 }
 
 h1, h2, h3, h4, h5, h6 {

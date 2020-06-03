@@ -1,6 +1,7 @@
 .great-started {
     background: url(../images/3307951_original.jpg) fixed no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
+    background-size: contain;
     padding: 6em 0;
     display: flex;
 }

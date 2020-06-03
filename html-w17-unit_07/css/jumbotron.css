@@ -1,0 +1,74 @@
+/* jumbotron */
+.banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em 0;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+	background-color: #656d65;
+	background-image: url("../images/01.jpg");
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.banner .inner {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    margin: 2em 10em;
+    padding: 2em;
+    background: rgba(52, 77, 43, 0.5);
+}
+
+.banner .inner header {
+    display: inline-block;
+    padding: 3px 0 3px 0;
+    margin: 0 0 2em 0;
+    border-bottom: solid 2px;
+	border-top: solid 2px;
+}
+
+.banner .inner header h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    padding-left: 0.05em;
+    margin: 0;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+}
+
+.banner .inner p {
+    letter-spacing: 0.1em;
+    margin: 0 7em;
+}
+
+.banner .inner p a {
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+}
+.banner .inner footer {
+    margin: 2em 0 0 0;
+}
+
+.btn-special {
+    background: #20c997;
+    border: double 2px #fff;
+    font-weight: 900;
+    color: #fff;
+}
+
+.btn-special:hover {
+    background: #02f5d4 !important;
+    border-color: #058d7bcb !important;
+    color: #fff;
+}
+
+@media all and (max-width: 900px) {
+    .lead {
+        display: none;
+    }
+}

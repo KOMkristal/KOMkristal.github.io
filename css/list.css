@@ -12,9 +12,9 @@
   display: block;
   padding: 0.75rem 1.25rem;
   margin-bottom: -1px;
-  color: rgb(2, 71, 11);
-  background-color: rgb(148, 228, 168);
-  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: rgb(10, 108, 255);
+  background-color: rgba(171, 199, 197, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.37);
 }
 
 .list-group-item:first-child {
@@ -26,4 +26,10 @@
   margin-bottom: 0;
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
+}
+.list-head {
+  margin-top: 2.5rem !important;
+  text-align: center;
+  background: linear-gradient(to right, rgba(0, 2, 66, 0.5) 2em, #0a07ccf1 3em, rgb(56, 2, 119) 7em, rgba(121, 60, 200, 0.89) 12em);
+  color: rgb(255, 255, 255);
 }

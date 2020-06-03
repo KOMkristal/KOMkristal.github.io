@@ -1,0 +1,29 @@
+.great-started {
+    background: url(../images/03.jpg) fixed no-repeat;
+    background-size: cover;
+    padding: 6em 0;
+    display: flex;
+}
+
+.great-started .great-started-text h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.great-started .great-started-text h2 {
+    color: #fff;
+    font-size: 40px;
+    margin: 25px;
+    text-transform: uppercase;
+}
+
+.great-started .great-started-text .btn-common {
+    text-transform: uppercase;
+}
+
+
+@media all and (max-width: 600px) {
+    .great-started {
+        display: none;
+    }
+}
