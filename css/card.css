@@ -13,6 +13,7 @@
 .card-body {
     flex: 1 1 auto;
     padding: 1.25rem;
+    
 }
   
 .card-title {
@@ -35,6 +36,22 @@
   
 .card-img-top {
     width: 100%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-img-top2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    border-top-left-radius: calc(0.25rem - 1px);
+    border-top-right-radius: calc(0.25rem - 1px);
+}
+.card-img-top3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
     border-top-left-radius: calc(0.25rem - 1px);
     border-top-right-radius: calc(0.25rem - 1px);
 }

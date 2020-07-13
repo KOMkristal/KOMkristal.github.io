@@ -1,8 +1,10 @@
 .great-started {
-    background: url(../images/3307951_original.jpg) fixed no-repeat;
+    /* background: url(../images/Надмирне\ споживання.jpg)  no-repeat; */
+    background: url(../images/Надмирне\ споживання.jpg) fixed no-repeat;
     /* background-size: cover; */
     background-size: contain;
-    padding: 6em 0;
+    padding: 15em 0;
+    margin: 20px;
     display: flex;
 }
 

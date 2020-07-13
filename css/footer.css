@@ -1,7 +1,7 @@
 /* footer */
 .footer {
-    /*background-color: #045517;*/
-    background: linear-gradient(to right, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em);
+    background-color: #044255;
+    /* background: linear-gradient(to right, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em); */
     color: #fff;
     width: 100%;
     /*display: flex; */
